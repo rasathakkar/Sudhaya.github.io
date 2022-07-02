@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animal Website</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="frontpage.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="file:///C:/Users/Asus/Desktop/minor%20project%20rasa/aboutus.html">ABOUT US</a></li>
+                    <li><a href="file:///C:/Users/Asus/Desktop/minor%20project%20rasa/map.html">GOOGLE MAP</a></li>
+                    <li><a href="file:///C:/Users/Asus/Desktop/minor%20project%20rasa/funds.html">FUND RAISING</a></li>
+                    <li><a href="file:///C:/Users/Asus/Desktop/minor%20project%20rasa/petservices1.html">PET SERVICES</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>SUDHAYA</h1>
+    <p>A little bit for yourself<br>and everything for others.
+    </p><br>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+    </section>
+    <section class="about">
+        <h1>About Sudhaya</h1>
+    <p>Wandering cattle in public places is probably the defining image of india in the west.With wandering cattle causing frequent accidents,especially involving two wheelers.At least 50 percent ot the animals die either immediately or after few days.India also has fewer governement and ngo services that deal with the stray cattles.Many countries have organisations like animal control,the Human society,the spcr,private shelters,and rescue organisations that take care of the stray cattles problems.</p>
+    <p>There are 3-4 road accident cases of stray dogs each day.The actual number could be much more because many people dont bother informing the mc of our organisation whenever they accidentally hit in animal.They simply let it die and speed away.But when someone good hearted tries to help the needy, he is lost of sources of guideance.However a few lucky animals who are treated successfully may be adopted by somebody.With a view to save stray animals especially dogs and cats we have created a platform Sudhaya which will allow user to locate its nearby ngos,civil services and vets which have been verified by us,provide the stray proper requirement they require.</p>
+    <h1>Mission</h1>
+    <p>In our society when we are not sure of something we ask google.Google spends its resources sourcing the web trying to predict what will be the most relevant content to show users for their 3.5 billion searches per day.Usually googles guesses are accurate , but sometimes they are not.If you google Dog shelters Dehradun,most search results comprise of animal husbandry farms or even dog breeders , which could lead to the loss of victim.Moreover which inspired us to develop Sudhaya.The mission of Sudhaya is to raise awareness and support the works of various ngos in the field of animal sheltering.We are trying to become a bridge between common folks to needed ones who seek to help homeless pets to thrive.Can you help?</p>
+    <div class="row">
+        <div class="about-col">
+            <h3>Donate Now</h3>
+            <ul>
+                <br><a href="https://www.smilefoundationindia.org/">Smile Foundation</a><br>
+                <br><a href="https://www.nanhikali.org/">Nanhi Kali</a><br>
+                <br><a href="https://goonj.org/">Goonj</a><br>
+                <br><a href="https://www.helpageindia.org/">Helpage India</a><br>
+                <br><a href="https://www.careindia.org/">Care India</a><br>
+                <br><a href="https://www.pratham.org/">Pratham</a><br>
+               
+            </ul>
+        </div>
+        <div class="about-col">
+            <h3>About us</h3>
+            <ul>
+                <br><a href="https://www.linkedin.com/in/rasa-thakkar-693189181/">Rasa Thakkar</a><br>
+                </ul>
+                </div>
+                <div class="about-col">
+                    <h3>contact us</h3>
+                    <table>
+                        <tr>
+                        <td colspan="2"><label id="i1" name="i1">First Name</label></td>
+                        <td colspan="2"><input type="text" id="t1" name="t1"></td>
+                        </tr>
+                        <tr>
+                        <td colspan="2"><label id="i2" name="i2">Last Name</label></td>
+                        
+                        <td colspan="2"><input type="text" id="t2" name="t2"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><label>Write Something</label></td>
+                            <td colspan="2"><textarea cols=" " rows=" ">
+                            </textarea>
+                            </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><input type="button" id="b1" value="Submit">
+                                
+                                </tr>
+                                </table>
+    </div>
+</section>
+    
+   
+    <!----------javascript for toggle menu--------->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
